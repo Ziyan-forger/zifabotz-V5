@@ -70,11 +70,11 @@ conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
 handler.help = ['grubsettings']
 handler.tags = ['group']
 handler.command = /^(setelangrub|grubsett|settingsgrub|grubsettings|settgrub|groupsett)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
+handler.owner = true
+handler.mods = true
+handler.premium = true
 handler.group = true
-handler.private = false
+handler.private = true
 
 handler.admin = true
 handler.botAdmin = true
